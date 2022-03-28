@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+    background: white;
+    
+}
+
+.link-to{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.link-from{
+    color: palevioletred;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.container-boxes{
+    position: relative;
+    height: max-content;
+    padding: 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 3rem;
+    margin: 3rem;
+    background: brown;
+     
+}
+
+.boxes-1{
+    background: white;
+    color: black;
+    height: 400px;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.boxes-2{
+    background: black;
+    color: white;
+    height: 400px;
+    padding: 1.5rem;
+}
+
+.rim{
+    color: blue;
+}
+
